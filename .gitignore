@@ -1,0 +1,17 @@
+# 🔐 Секреты и ключи — НИКОГДА не коммитить
+*.asc
+*.gpg
+*private*
+*.key
+*.pem
+.env
+*.log
+audit_log.md
+consensus_log.md
+auto_heal.log
+quantum_watch.log
+*.tmp
+
+# 🔐 Системные папки
+/.gnupg/
+/secure_backup/
