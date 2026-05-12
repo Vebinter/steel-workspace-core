@@ -1,17 +1,13 @@
-# 🔐 Секреты и ключи — НИКОГДА не коммитить
-*.asc
-*.gpg
-*private*
+.env
 *.key
 *.pem
-.env
+config_local.py
+secrets/
+__pycache__/
+*.pyc
+.DS_Store
+.vscode/
+.idea/
+Archive/
 *.log
-audit_log.md
-consensus_log.md
-auto_heal.log
-quantum_watch.log
-*.tmp
-
-# 🔐 Системные папки
-/.gnupg/
-/secure_backup/
+tmp/
